@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- j'ai mis 'fr' car tu es en français -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact BASTOS-Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Feuille de style personnalisée -->
+    <link rel="stylesheet" href="CSS/Styles.css"> <!-- On prépare déjà notre fichier css externe -->
+</head>
+
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 shadow-sm p-3" style="backdrop-filter: blur(10px);">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">BASTOS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="A propos_de_nous.html">À PROPOS DE NOUS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+
+    <main>
+      <section class="Formulaire py-5 bg-warning text-dark">
+        <div class="container">
+          <h2 class="text-center mb-4">Contactez-nous</h2>
+      
+          <form>
+            <div class="mb-3">
+              <label for="nom" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom">
+            </div>
+      
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Entrez votre email">
+            </div>
+      
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Entrez votre message"></textarea>
+            </div>
+      
+            <button type="submit" class="btn btn-dark">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 BASTOS Restaurant. Tous droits réservés.</p>
+      <div class="social-icons">
+          <a href="#" class="text-white mx-2" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white mx-2" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white mx-2" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+    </footer>
+    
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
